@@ -3,9 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<title>The Intuitive Programmer</title>
-<link rel="alternate" type="application/rss+xml" title="RSS" href="/index.xml">
-<link rel="alternate" type="application/json" title="JSON" href="/index.json">
+<title>1% more over time – The Intuitive Programmer</title>
 <meta name="description"
       content="My Journey in Java Programming, Test Driven Development, Angular Development and more!">
 <meta name="created" content="2022-02-28T09:33:42-0500">
@@ -13,16 +11,16 @@
 
 <meta name="contact" content="developer.alvin.muniz@gmail.com">
 <meta property="og:site_name" content="The Intuitive Programmer">
-<meta property="og:title" content="The Intuitive Programmer">
-<meta property="og:url" content="/">
-<meta property="og:type" content="website">
+<meta property="og:title" content="1% more over time">
+<meta property="og:url" content="/posts/003-one-percent-more-over-time/">
+<meta property="og:type" content="article">
 <meta property="og:image" content="/favicon.png">
 <meta name="generator" content="Hugo 0.88.1" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 
 
-<link rel="canonical" href="/">
+<link rel="canonical" href="/posts/003-one-percent-more-over-time/">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -35,9 +33,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "url" : "/",
-    "name": "The Intuitive Programmer",
-    "description": "My Journey in Java Programming, Test Driven Development, Angular Development and more!",
+    "headline": "1% more over time",
+    "datePublished": "2022-02-28T09:33:42-05:00",
+    "dateModified": "2022-02-28T09:33:42-05:00",
+    "url" : "/posts/003-one-percent-more-over-time/",
+    "description": "The math is there, with sustained effort, results become apparent. I\u0026amp;rsquo;m using this blog to serve as a measure of my knowledge in java development. I\u0026amp;rsquo;m hoping …",
     "image" : "/favicon.png",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -62,7 +62,7 @@
 
 </head>
 
-<body class="list-page front">
+<body class="single-page">
 <div class="page layout__page">
 <header class="header layout__header">
 <a href="/" title="Home" rel="home" class="header__logo"><img src="/images/logo.png" alt="Home" class="header__logo-image"></a>
@@ -76,65 +76,45 @@
 <nav class="main-menu layout__navigation">
 <h2 class="visually-hidden">Main menu</h2>
 <ul class="navbar">
-<li><a href="/" class="active" aria-current="page">Home</a></li>
-<li><a href="/posts/">Posts</a></li>
+<li><a href="/">Home</a></li>
+<li><a href="/posts/" class="active" aria-current="page">Posts</a></li>
 </ul>
 </nav>
 
 
 <main class="main layout__main">
-<article class="single-view">
-<div class="content">
-
-</div>
-</article>
-
-
-<article class="list-view list-view--posts">
+<article class="single-view single-view--posts">
 <header>
-<h2 class="title title-submitted"><a href="/posts/003-one-percent-more-over-time/">1% more over time</a></h2>
+<h1 class="title title-submitted">1% more over time</h1>
 <div class="submitted">
 <time class="created-date" datetime="2022-02-28T09:33:42-05:00">28 February, 2022</time>
 </div>
-
 </header>
 <div class="content">
-Giving 1% more concentrated effort over a period of time
+<p>The math is there, with sustained effort, results become apparent. I&rsquo;m
+using this blog to serve as a measure of my knowledge in java development.
+I&rsquo;m hoping that at some point this might help others on their journey. Today,
+during a pairing session, I had forgotten how to kill the process that is on
+a certain port. It was kind of agitating but it served as a reminder that we
+should invite such an experience to be something of good use, something that
+will serve to increase your understanding of a specific domain of choice
+given that you are deliberate about it. Killing the process on port :8080</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">lsof -i :8080 
+</code></pre></div><p>this will print out the PID which you will then proceed to kill</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">kill -9 PID 
+</code></pre></div><p>This might feel awkward if you haven&rsquo;t done this stuff
+before, but worry not, developing an understanding of what the port is and
+why you need to kill it is important and an early lesson that benefits even experienced developers to revisit.  This is a quick and simple one for today and remember, as long as you do 1% of concentrated effort, you&rsquo;ll see the results in the long run.</p>
+<p>Cheers,</p>
+<p>A</p>
+
+
 </div>
 </article>
-
-<article class="list-view list-view--posts">
-<header>
-<h2 class="title title-submitted"><a href="/posts/002-debug-early-debug-often/">Debug early and debug often</a></h2>
-<div class="submitted">
-<time class="created-date" datetime="2022-02-20T09:33:42-05:00">20 February, 2022</time>
-</div>
-
-</header>
-<div class="content">
-7 months in and i&rsquo;ve used the debugger over 10,000 times
-</div>
-</article>
-
-<article class="list-view list-view--posts">
-<header>
-<h2 class="title title-submitted"><a href="/posts/001-software-dev-experience/">The felt experience of software development</a></h2>
-<div class="submitted">
-<time class="created-date" datetime="2022-02-01T09:33:42-05:00">1 February, 2022</time>
-</div>
-
-</header>
-<div class="content">
-This is a first post on a hugo blog.
-</div>
-</article>
-
-
 </main>
 
 
 <footer class="footer layout__footer">
-<p>Follow: <a rel="alternate" type="application/rss&#43;xml" href="/index.xml">RSS</a> | <a rel="alternate" type="application/json" href="/index.json">JSON</a></p>
 <p><!-- raw HTML omitted --></p>
 <p>Powered by <a href="https://gohugo.io/">Hugo</a> and the <a href="https://github.com/frjo/hugo-theme-zen">Zen theme</a>.</p>
 

@@ -1,4 +1,4 @@
-baseURL = 'http://www.theintuitiveprogrammer.com/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'The Intuitive Programmer'
 theme='zen'
