@@ -1,0 +1,42 @@
+baseURL = 'http://www.theintuitiveprogrammer.com/'
+languageCode = 'en-us'
+title = 'The Intuitive Programmer'
+theme='zen'
+defaultContentLanguage = "en"
+pluralizelisttitles = false
+removePathAccents = true
+paginate = 10
+paginatePath = "page"
+rssLimit = 20
+
+[author]
+name = "Alvin Muniz"
+url = "https://www.alvinmuniz.com"
+avatar = "path/to/some-image.jpg"
+
+[outputFormats.SearchIndex]
+mediaType = "application/json"
+baseName = "searchindex"
+isPlainText = true
+notAlternative = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON", "SearchIndex" ]
+section = [ "HTML", "RSS", "JSON" ]
+
+[params]
+contact = "developer.alvin.muniz@gmail.com"
+copyright = "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
+description = "A site documenting my journey in software development."
+dateformat = "2 January, 2006"
+favicon = "favicon.ico"
+realfavicongenerator = true
+feedlinks = true
+footer = "Powered by [Hugo](https://gohugo.io/) and the [Zen theme](https://github.com/frjo/hugo-theme-zen)."
+icon = "favicon.png"
+image = "favicon.png"
+imageMaxWidth = 400
+mobileMenu = false
+poweredby = false
+sidebar = false
+submitted = true
