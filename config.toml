@@ -1,4 +1,6 @@
-baseURL = 'https://www.theintuitiveprogrammer.com'
+# baseURL = 'https://www.theintuitiveprogrammer.com'
+baseURL = ""
+relativeURLs = "True"
 languageCode = 'en-us'
 title = 'The Intuitive Programmer'
 theme='zen'
