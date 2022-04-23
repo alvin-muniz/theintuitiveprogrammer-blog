@@ -7,10 +7,11 @@ removePathAccents = true
 paginate = 10
 paginatePath = "page"
 rssLimit = 20
-uglyURLs = true
+relativeURLs = true
 
-[permalinks]
-  '/' = '/:title/'
+#
+# [permalinks]
+#   '/' = '/:title/'
 
 [author]
 name = "Alvin Muniz"
