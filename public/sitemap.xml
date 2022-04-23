@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/003-one-percent-more-over-time/</loc>
+    <loc>/posts/003-one-percent-more-over-time.html</loc>
     <lastmod>2022-02-28T09:33:42-05:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>/posts.html</loc>
     <lastmod>2022-02-28T09:33:42-05:00</lastmod>
   </url><url>
     <loc>/</loc>
     <lastmod>2022-02-28T09:33:42-05:00</lastmod>
   </url><url>
-    <loc>/posts/002-debug-early-debug-often/</loc>
+    <loc>/posts/002-debug-early-debug-often.html</loc>
     <lastmod>2022-02-20T09:33:42-05:00</lastmod>
   </url><url>
-    <loc>/posts/001-software-dev-experience/</loc>
+    <loc>/posts/001-software-dev-experience.html</loc>
     <lastmod>2022-02-01T09:33:42-05:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>/categories.html</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>/tags.html</loc>
   </url>
 </urlset>

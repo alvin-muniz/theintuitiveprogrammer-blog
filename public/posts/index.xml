@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on The Intuitive Programmer</title>
-    <link>/posts/</link>
+    <link>/posts.html</link>
     <description>Recent content in Posts on The Intuitive Programmer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,9 +11,9 @@
     
     <item>
       <title>1% more over time</title>
-      <link>/posts/003-one-percent-more-over-time/</link>
+      <link>/posts/003-one-percent-more-over-time.html</link>
       <pubDate>Mon, 28 Feb 2022 09:33:42 -0500</pubDate>
-      <guid>/posts/003-one-percent-more-over-time/</guid>
+      <guid>/posts/003-one-percent-more-over-time.html</guid>
       <description>&lt;p&gt;The math is there, with sustained effort, results become apparent. I&amp;rsquo;m
 using this blog to serve as a measure of my knowledge in java development.
 I&amp;rsquo;m hoping that at some point this might help others on their journey. Today,
@@ -35,9 +35,9 @@ why you need to kill it is important and an early lesson that benefits even expe
     
     <item>
       <title>Debug early and debug often</title>
-      <link>/posts/002-debug-early-debug-often/</link>
+      <link>/posts/002-debug-early-debug-often.html</link>
       <pubDate>Sun, 20 Feb 2022 09:33:42 -0500</pubDate>
-      <guid>/posts/002-debug-early-debug-often/</guid>
+      <guid>/posts/002-debug-early-debug-often.html</guid>
       <description>&lt;p&gt;As a new software developer, it is your responsibility to understand
 the product that you are developing for and ask questions in instances where
 you do not know the answer.  Having spent the better part of my career in
@@ -66,9 +66,9 @@ evolve over time and that&amp;rsquo;s a process you&amp;rsquo;ve got to fall in 
     
     <item>
       <title>The felt experience of software development</title>
-      <link>/posts/001-software-dev-experience/</link>
+      <link>/posts/001-software-dev-experience.html</link>
       <pubDate>Tue, 01 Feb 2022 09:33:42 -0500</pubDate>
-      <guid>/posts/001-software-dev-experience/</guid>
+      <guid>/posts/001-software-dev-experience.html</guid>
       <description>&lt;p&gt;Software engineering has boomed. If you&amp;rsquo;re between the ages of 24 and 45,
 then likely you are or know someone who is a software engineering.
 Let&amp;rsquo;s remember exactly what software engineering is. The development of an idea into an actuality.

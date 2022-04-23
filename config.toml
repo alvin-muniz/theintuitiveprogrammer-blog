@@ -1,4 +1,4 @@
-baseURL = 'https://www.theintuitiveprogrammer.com'
+# baseURL = 'http://www.theintuitiveprogrammer.com'
 languageCode = 'en-us'
 title = 'The Intuitive Programmer'
 theme='zen'
@@ -8,6 +8,11 @@ removePathAccents = true
 paginate = 10
 paginatePath = "page"
 rssLimit = 20
+relativeURLs = true
+uglyURLs = true
+
+[permalinks]
+  '/' = '/:title/'
 
 [author]
 name = "Alvin Muniz"
